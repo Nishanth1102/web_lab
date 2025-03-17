@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .parent{
+            display: flex;
+            min-height: 100vh; 
+            width: 100%;
+            margin: 0;
+        }
+        .left{
+            background-color: rgba(43, 40, 40, 0.781);
+            width: 25%;
+            min-height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px 10px;
+            position: relative;
+        }
+        .right{
+            background-color: #fff;
+            flex: 1; 
+            padding: 20px 25px
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        .skills, .contact, .co-curricular{
+            color: #bcb4b4;
+        }
+        p{
+            font-size: 18px;margin-bottom: 10px;line-height: 1.5;text-align: justify;
+        }
+        ul{
+            font-size: 18px;margin-bottom: 10px;line-height: 1.5;text-align: justify;
+        }
+        hr {
+            height: 2px;
+            background-color: white;
+            border: none;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+
+            <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid" class="img">
+            
+            <div class="contact">
+                <h2>CONTACT</h2>
+                <p> <i class="fa fa-phone"></i> 9876543210</p>
+                <p><i class="fa fa-envelope"></i> nishanth@gmail.com</p>
+                <p><i class="fa fa-map-marker"></i> Bengaluru</p>
+                <p><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/nishanth-k-44290625b" style="text-decoration: none;color: #bcb4b4;"> in/nishanth</a></p>
+                <p><i class="fa fa-github"></i> <a href="https://github.com/nishanth1102" style="text-decoration: none;color: #bcb4b4;"> github/nishanth1102</a></p>
+            </div>
+
+            <hr>
+
+            <div class="skills">
+                <h2>SKILLS</h2>
+                <ul >
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="co-curricular">
+                <h2>CO-CURRICULAR </h2>
+                <ul>
+                    <li style="text-align: justify;">Represented MSRIT in football at VTU State Level and won 2nd place</li>
+                </ul>
+            </div>
+                        
+        </div>
+        <div class="right">
+            <h1 style="font-family: 'Julius Sans One', sans-serif;font-size: 60px;">NISHANTH</h1>
+
+            <div class="About">
+                <h2>About Me</h2>
+                <p style=" font-size: 18px;margin-bottom: 10px;line-height: 1.5;text-align: justify;">I am a motivated and detail-oriented Computer Science student at Ramaiah Institute of Technology with a strong passion for problem-solving and software development. My expertise lies in Java, Python, web technologies, and database management.</p>
+                <p style=" font-size: 18px;margin-bottom: 10px;line-height: 1.5;text-align: justify;">I enjoy working on challenging projects and continuously learning new technologies to enhance my skills. I aspire to contribute to impactful software solutions and grow as a developer. With a strong foundation in programming and teamwork, I am eager to take on opportunities that push me to innovate and excel.</p>
+            </div>
+
+            <div class="Education">
+                <h2>EDUCATION</h2>
+                <p style=" font-size: 18px;margin-bottom: 10px;line-height: 1.5;"><strong>Ramaiah Institute of Technology</strong><br>
+                B.E. - Computer Science and Engineering - CGPA: 9.49<br>
+                2022 – 2026 | Bengaluru, Karnataka</p>
+
+                <p style=" font-size: 18px;margin-bottom: 10px;line-height: 1.5;"><strong>Narayana PU College</strong><br>
+                Upper Secondary Graduation - PU Boards - Percentage: 93.4%<br>
+                2020 – 2022 | Bengaluru, Karnataka</p>
+
+                <p style=" font-size: 18px;margin-bottom: 10px;line-height: 1.5;"><strong>Nagarjuna Vidyaniketan</strong><br>
+                Higher and Primary School Education - CBSE Boards - Percentage: 89.4%<br>
+                2012 – 2020 | Bengaluru, Karnataka</p>
+            </div>
+
+            <div class="projects">
+                <h2>PROJECTS</h2>
+            
+                <p><strong>University Management System | Java</strong></p>
+                <p>• Efficient Management of University Tasks: The system enables the management of university operations such as student records, faculty details, leave applications, and resource allocation, providing a streamlined approach for administrative tasks.</p>
+                <p>• Java-Based Application: Built using Java, the application utilizes core Java libraries, ensuring a reliable and scalable platform for managing complex data with a user-friendly interface.</p>
+            
+                <p><strong>NetScan Visualizer – Mapping and Securing Networks | Python</strong></p>
+                <p>• Network Visualization and Security: The project provides a tool for mapping and visualizing networks, enabling efficient network management and security monitoring. It aims to visualize network architecture, helping users identify network nodes, connections, and vulnerabilities.</p>
+                <p>• Security Features Integration: The system incorporates security features that assist in securing networks by detecting potential threats, vulnerabilities, and unauthorized access points, enhancing the overall network defense capabilities.</p>
+            
+                <p><strong>Audio Processing with Keyword Recognition and Geolocation | Python</strong></p>
+                <p>• Speech-to-Text and Keyword Detection: The project integrates speech recognition technology to capture and transcribe audio input, specifically identifying important keywords such as “emergency” and “help” from the spoken words. This allows the system to react to specific phrases in real-time, enhancing its utility in urgent situations.</p>
+                <p>• Geolocation Integration: Upon detecting specific keywords, the project uses the Google Maps API to retrieve and display the user’s current location, along with timestamp logging. This feature enables location-based actions, providing a powerful tool for scenarios requiring both keyword detection and geographical context.</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
